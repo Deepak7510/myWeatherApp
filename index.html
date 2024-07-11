@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <div class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <p class="invalid-input">Invalid Input</p>
+            <div class="display-box">
+                <div class="img-box">
+                    <img src="clear.png" alt="">
+                </div>
+                <div class="content-row1">
+                    <h1 class="temp-box"><span class="temp">22</span>°C</h1>
+                    <p class="city-name">Balrampur</p>
+                </div>
+                <div class="content-row2">
+                    <div class="box">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="box-content">
+                            <h1><span class="humidity">64</span> %</h1>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="box-content">
+                            <h1><span class="wind">64</span> km/h</h1>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
